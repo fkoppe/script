@@ -21,6 +21,10 @@ sudo systemctl start avahi-daemon
 sudo systemctl enable cups.service
 sudo systemctl start cups.service
 
+sudo systemctl enable docker.socket
+sudo systemctl start docker.socket
+sudo usermod -aG docker $USER
+
 ./paru.sh
 ./aur.sh
 
