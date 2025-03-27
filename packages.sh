@@ -6,6 +6,7 @@ KEEP_ALIVE_PID=$!
 sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completion 7zip vim cronie docker docker-compose
 sudo pacman -S --needed --noconfirm base-devel btop htop atop iotop nvtop lsd fzf ripgrep bat
 sudo pacman -S --needed --noconfirm base-devel keepassxc chromium inkscape blender timeshift okular elisa vlc krita ttf-cascadia-code-nerd
+sudo pacman -S --needed --noconfirm openvpn cuda
 
 sudo pacman -S --noconfirm steam
 
