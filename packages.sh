@@ -7,7 +7,7 @@ sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completi
 sudo pacman -S --needed --noconfirm base-devel btop htop atop iotop nvtop lsd fzf ripgrep bat
 
 sudo pacman -S --needed --noconfirm base-devel keepassxc chromium inkscape blender timeshift okular elisa vlc krita ttf-cascadia-code-nerd kdeconnect wayvnc krfb krdc obsidian
-sudo pacman -S --needed --noconfirm openvpn cuda audacity
+sudo pacman -S --needed --noconfirm openvpn cuda audacity texmaker texlive
 
 sudo pacman -S --noconfirm steam
 
