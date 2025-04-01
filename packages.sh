@@ -3,13 +3,28 @@ sudo -v
 while true; do sudo -n true; sleep 60; done 2>/dev/null &
 KEEP_ALIVE_PID=$!
 
-sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completion 7zip vim cronie docker docker-compose lldb
-sudo pacman -S --needed --noconfirm base-devel btop htop atop iotop nvtop lsd fzf ripgrep bat
+# essential
+sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completion 7zip vim cronie
+sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep bat
 
-sudo pacman -S --needed --noconfirm base-devel keepassxc chromium inkscape blender timeshift okular elisa vlc krita ttf-cascadia-code-nerd kdeconnect wayvnc krfb krdc obsidian
-sudo pacman -S --needed --noconfirm openvpn cuda audacity texmaker texlive
+# basic
+sudo pacman -S --needed --noconfirm flatpak ttf-cascadia-code-nerd timeshift kdeconnect wayvnc krfb krdc openvpn
 
+# dev
+sudo pacman -S --needed --noconfirm lldb cuda
+
+# docker
+sudo pacman -S --needed --noconfirm docker docker-compose
+
+# other
+sudo pacman -S --needed --noconfirm keepassxc chromium inkscape blender okular elisa vlc krita obsidian
+sudo pacman -S --needed --noconfirm audacity
+
+# game
 sudo pacman -S --noconfirm steam
+
+# tex
+sudo pacman -S --noconfirm texmaker texlive texlive-langenglish texlive-langgerman
 
 # dvd
 sudo pacman -S --needed --noconfirm libdvdread libdvdcss libdvdnav
