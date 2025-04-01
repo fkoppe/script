@@ -21,10 +21,10 @@ sudo pacman -S --needed --noconfirm keepassxc chromium inkscape blender okular e
 sudo pacman -S --needed --noconfirm audacity
 
 # game
-sudo pacman -S --noconfirm steam
+sudo pacman -S --needed --noconfirm steam
 
 # tex
-sudo pacman -S --noconfirm texmaker texlive texlive-langenglish texlive-langgerman
+sudo pacman -S --needed --noconfirm texmaker texlive texlive-langenglish texlive-langgerman
 
 # dvd
 sudo pacman -S --needed --noconfirm libdvdread libdvdcss libdvdnav
