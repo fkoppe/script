@@ -21,7 +21,7 @@ sudo pacman -S --needed --noconfirm keepassxc chromium inkscape blender okular e
 sudo pacman -S --needed --noconfirm audacity
 
 # game
-sudo pacman -S --needed --noconfirm steam
+sudo pacman -S --needed --noconfirm steam mangohud
 
 # tex
 sudo pacman -S --needed --noconfirm texmaker texlive texlive-langenglish texlive-langgerman
