@@ -24,7 +24,7 @@ sudo pacman -S --needed --noconfirm audacity
 sudo pacman -S --needed --noconfirm steam mangohud
 
 # tex
-sudo pacman -S --needed --noconfirm texmaker texlive texlive-langenglish texlive-langgerman
+sudo pacman -S --needed --noconfirm texmaker texlive texlive-langenglish texlive-langgerman biber
 
 # dvd
 sudo pacman -S --needed --noconfirm libdvdread libdvdcss libdvdnav
