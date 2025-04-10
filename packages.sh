@@ -11,7 +11,7 @@ sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep b
 sudo pacman -S --needed --noconfirm flatpak ttf-cascadia-code-nerd timeshift kdeconnect wayvnc krfb krdc openvpn kwave gwenview digikam obs-studio
 
 # dev
-sudo pacman -S --needed --noconfirm lldb cuda vulkan-headers nvidia-container-toolkit nvidia-utils
+sudo pacman -S --needed --noconfirm lldb cuda vulkan-headers nvidia-container-toolkit nvidia-utils python-pip
 
 # docker
 sudo pacman -S --needed --noconfirm docker docker-compose
