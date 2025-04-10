@@ -25,9 +25,6 @@ sudo systemctl enable docker.socket
 sudo systemctl start docker.socket
 sudo usermod -aG docker $USER
 
-systemctl start openvpn-server@server.service
-systemctl enable openvpn-server@server.service
-
 ./paru.sh
 ./aur.sh
 
