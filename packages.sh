@@ -8,7 +8,7 @@ sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completi
 sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep bat
 
 # basic
-sudo pacman -S --needed --noconfirm flatpak ttf-cascadia-code-nerd timeshift kdeconnect wayvnc krfb krdc openvpn kwave gwenview digikam obs-studio
+sudo pacman -S --needed --noconfirm flatpak ttf-cascadia-code-nerd timeshift kdeconnect wayvnc krfb krdc openvpn networkmanager-openvpn kwave gwenview digikam obs-studio
 
 # dev
 sudo pacman -S --needed --noconfirm lldb cuda vulkan-headers nvidia-container-toolkit nvidia-utils python-pip
