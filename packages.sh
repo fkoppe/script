@@ -4,7 +4,7 @@ while true; do sudo -n true; sleep 60; done 2>/dev/null &
 KEEP_ALIVE_PID=$!
 
 # essential
-sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completion 7zip vim cronie
+sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completion 7zip zip unzip vim cronie
 sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep bat
 
 # basic
