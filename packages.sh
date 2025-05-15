@@ -5,7 +5,7 @@ KEEP_ALIVE_PID=$!
 
 # essential
 sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completion 7zip zip unzip vim cronie
-sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep bat
+sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep bat less
 
 # basic
 sudo pacman -S --needed --noconfirm ttf-cascadia-code-nerd timeshift kdeconnect wayvnc krfb krdc openvpn networkmanager-openvpn kwave gwenview digikam obs-studio rclone
