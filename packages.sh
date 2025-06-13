@@ -18,7 +18,7 @@ sudo pacman -S --needed --noconfirm lldb cuda vulkan-headers nvidia-container-to
 sudo pacman -S --needed --noconfirm docker docker-compose
 
 # other
-sudo pacman -S --needed --noconfirm keepassxc chromium inkscape blender okular elisa vlc krita obsidian
+sudo pacman -S --needed --noconfirm keepassxc chromium inkscape blender okular elisa vlc krita obsidian libreoffice-still
 sudo pacman -S --needed --noconfirm audacity
 
 # game
