@@ -5,7 +5,7 @@ KEEP_ALIVE_PID=$!
 
 # essential
 sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completion 7zip zip unzip vim cronie
-sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep bat
+sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep bat less
 
 # basic
 sudo pacman -S --needed --noconfirm ttf-cascadia-code-nerd timeshift kdeconnect wayvnc krfb krdc openvpn networkmanager-openvpn kwave gwenview digikam obs-studio rclone
@@ -18,7 +18,7 @@ sudo pacman -S --needed --noconfirm lldb cuda vulkan-headers nvidia-container-to
 sudo pacman -S --needed --noconfirm docker docker-compose
 
 # other
-sudo pacman -S --needed --noconfirm keepassxc chromium inkscape blender okular elisa vlc krita obsidian
+sudo pacman -S --needed --noconfirm keepassxc chromium inkscape blender okular elisa vlc krita obsidian libreoffice-still
 sudo pacman -S --needed --noconfirm audacity
 
 # game
