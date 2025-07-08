@@ -7,7 +7,7 @@ KEEP_ALIVE_PID=$!
 paru -S --needed --noconfirm --skipreview proton-mail-bin vesktop-bin 64gram-desktop-bin
 
 # creative
-paru -S --needed --noconfirm --skipreview visual-studio-code-bin drawio-desktop onlyoffice-bin tiled
+paru -S --needed --noconfirm --skipreview visual-studio-code-bin drawio-desktop onlyoffice-bin tiled #masterpdfeditor-free
 
 # browser
 paru -S --needed --noconfirm --skipreview librewolf-bin brave-bin 

@@ -8,11 +8,12 @@ sudo pacman -S --needed --noconfirm base-devel git cmake net-tools bash-completi
 sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep bat less
 
 # basic
-sudo pacman -S --needed --noconfirm ttf-cascadia-code-nerd timeshift kdeconnect wayvnc krfb krdc openvpn networkmanager-openvpn kwave gwenview digikam obs-studio rclone
-sudo pacman -S flatpak xdg-desktop-portal xdg-desktop-portal-kde
+sudo pacman -S --needed --noconfirm ttf-cascadia-code-nerd timeshift kdeconnect wayvnc krfb krdc openvpn networkmanager-openvpn kwave gwenview digikam obs-studio rclone fastfetch
+sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde
 
 # dev
-sudo pacman -S --needed --noconfirm lldb cuda vulkan-headers nvidia-container-toolkit nvidia-utils python-pip
+sudo pacman -S --needed --noconfirm lldb vulkan-headers nvidia-container-toolkit nvidia-utils python-pip
+# cuda
 
 # docker
 sudo pacman -S --needed --noconfirm docker docker-compose

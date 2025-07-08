@@ -1,0 +1,23 @@
+[fkoppe@c3poxxx ~]$ sudo mkdir /raidstorage
+[fkoppe@c3poxxx ~]$ sudo mkdir /faststorage
+
+
+[fkoppe@c3poxxx ~]$ sudo mdadm --stop /dev/md127
+sudo mkfs.ext4 /dev/md127
+
+[fkoppe@c3poxxx ~]$ sudo mount /dev/md127 /raidstorage/
+
+
+
+sudo mdadm --create --verbose --level=10 --raid-devices=2 --layout=f2 /dev/md/HddRaidArray /dev/disk/by-id/ata-ST2000DM008-2UB102_WFL8G7H3 /dev/disk/by-id/ata-ST2000DM008-2UB102_ZFL6NVBJ
+
+
+
+
+
+
+# TODO
+
+pacman.conf (parralel)
+
+makepkg.conf -j24
