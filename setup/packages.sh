@@ -19,8 +19,9 @@ sudo pacman -S --needed --noconfirm lldb vulkan-headers nvidia-container-toolkit
 sudo pacman -S --needed --noconfirm docker docker-compose
 
 # other
-sudo pacman -S --needed --noconfirm keepassxc inkscape blender okular elisa vlc krita obsidian libreoffice-still
+sudo pacman -S --needed --noconfirm keepassxc inkscape blender okular elisa krita obsidian libreoffice-still
 sudo pacman -S --needed --noconfirm audacity
+sudo pacman -S --needed --noconfirm vlc vlc-plugin-dvd vlc-plugin-dca
 
 # game
 sudo pacman -S --needed --noconfirm steam mangohud
