@@ -8,6 +8,7 @@ paru -S --needed --noconfirm --skipreview proton-mail-bin vesktop-bin 64gram-des
 
 # creative
 paru -S --needed --noconfirm --skipreview visual-studio-code-bin drawio-desktop onlyoffice-bin tiled #masterpdfeditor-free
+paru -S ziggy-git
 
 # browser
 paru -S --needed --noconfirm --skipreview librewolf-bin brave-bin 

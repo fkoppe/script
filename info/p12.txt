@@ -1,0 +1,1 @@
+pk12util -d ~/.pki/nssdb -i unibw_cert.p12
