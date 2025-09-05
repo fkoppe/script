@@ -12,8 +12,8 @@ git config --global user.email "fkoppe@web.de"
 
 ./ssh-agent
 
-sudo systemctl enable syncthing.service
-sudo systemctl start syncthing.service
+systemctl --user enable syncthing.service
+systemctl --user start syncthing.service
 
 sudo systemctl enable cronie
 sudo systemctl start cronie
