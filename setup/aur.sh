@@ -6,9 +6,11 @@ KEEP_ALIVE_PID=$!
 # communication
 paru -S --needed --noconfirm --skipreview proton-mail-bin vesktop-bin 64gram-desktop-bin
 
+# dev
+paru -S --needed --noconfirm --skipreview visual-studio-code-bin ziggy-git
+
 # creative
-paru -S --needed --noconfirm --skipreview visual-studio-code-bin drawio-desktop onlyoffice-bin tiled #masterpdfeditor-free
-paru -S ziggy-git
+paru -S --needed --noconfirm --skipreview zotero typora-free drawio-desktop onlyoffice-bin tiled
 
 # browser
 paru -S --needed --noconfirm --skipreview librewolf-bin brave-bin 
