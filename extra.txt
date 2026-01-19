@@ -1,4 +1,7 @@
 # Official
+git-filter-repo
+kfind-25.08.3-1
+
 
 # AUR
 sdl2

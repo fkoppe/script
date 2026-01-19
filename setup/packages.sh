@@ -15,7 +15,10 @@ sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-porta
 sudo pacman -S --needed --noconfirm lldb vulkan-headers nvidia-container-toolkit nvidia-utils python-pip ghostty neovim
 
 # special
-sudo pacman -S --needed --noconfirm python310 python311 ollama-cuda
+sudo pacman -S --needed --noconfirm python310 python311
+
+# gpu specific
+sudo pacman -S --needed --noconfirm ollama-cuda cuda
 
 # docker
 sudo pacman -S --needed --noconfirm docker docker-compose
@@ -40,6 +43,9 @@ sudo pacman -S --needed --noconfirm steam mangohud
 
 # tex
 sudo pacman -S --needed --noconfirm texmaker texlive texlive-langenglish texlive-langgerman biber
+
+# typst
+sudo pacman -S --needed --noconfirm typst
 
 # printer
 sudo pacman -S --needed --noconfirm avahi cups cups-pdf system-config-printer

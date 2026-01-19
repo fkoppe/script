@@ -1,0 +1,2 @@
+/home/fkoppe/.ollama/models
+/home/fkoppe/.steam/steam/steamapps/

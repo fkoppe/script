@@ -10,7 +10,10 @@ paru -S --needed --noconfirm --skipreview proton-mail-bin vesktop-bin 64gram-des
 paru -S --needed --noconfirm --skipreview visual-studio-code-bin ziggy-git
 
 # creative
-paru -S --needed --noconfirm --skipreview zotero typora-free drawio-desktop onlyoffice-bin tiled
+paru -S --needed --noconfirm --skipreview zotero drawio-desktop onlyoffice-bin tiled
+
+# writing
+paru -S --needed --noconfirm --skipreview typstwriter typora-free
 
 # browser
 paru -S --needed --noconfirm --skipreview librewolf-bin brave-bin 
