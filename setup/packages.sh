@@ -9,7 +9,7 @@ sudo pacman -S --needed --noconfirm btop htop atop iotop nvtop lsd fzf ripgrep b
 
 # basic
 sudo pacman -S --needed --noconfirm ttf-cascadia-code-nerd timeshift kdeconnect wayvnc krfb krdc openvpn networkmanager-openvpn rclone fastfetch dosfstools
-sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde syncthing isoimagewriter
+sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde syncthing isoimagewriter filelight
 
 # dev
 sudo pacman -S --needed --noconfirm lldb vulkan-headers nvidia-container-toolkit nvidia-utils python-pip ghostty neovim
