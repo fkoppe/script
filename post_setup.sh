@@ -11,7 +11,7 @@ git clone git@github.com:eisvogelstudio/starmont.git
 
 # Sandbox
 cd /home/fkoppe/Workspace
-git clone --recursive git@github.com:fkoppe/sandbox.git
+git clone git@github.com:fkoppe/sandbox.git
 cd sandbox/library
 rm -rf darkstar
 rm -rf deepnova
