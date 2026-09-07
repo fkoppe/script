@@ -22,4 +22,4 @@ paru -S --needed --noconfirm --skipreview librewolf-bin brave-bin
 paru -S --needed --noconfirm --skipreview epson-inkjet-printer-escpr-bin epson-inkjet-printer-escpr2-bin
 
 # other
-paru -S --needed --noconfirm --skipreview tidal-hifi-bin backintime
+paru -S --needed --noconfirm --skipreview tidal-hifi-bin backintime openai-codex
